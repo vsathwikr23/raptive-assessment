@@ -1,4 +1,4 @@
-# raptive-assessment
+# Beta distribution Visualizer with Bayesian Inference
 
 This is a repository to a streamlit application which allows users to interact and explore the beta distribution, a probability distribution commonly used to model probabilites and proportions. 
 
