@@ -13,8 +13,8 @@ alpha = st.sidebar.slider("Alpha (α)", min_value=0.1, max_value=10.0, value=2.0
 beta_val = st.sidebar.slider("Beta (β)", min_value=0.1, max_value=10.0, value=2.0, step=0.1)
 
 st.sidebar.header("Observed Data")
-trials = st.sidebar.number_input("Number of trials (n)", min_value=1, value=10)
-successes = st.sidebar.number_input("Number of successes (x)", min_value=0, max_value=trials, value=3)
+trials = st.sidebar.number_input("Number of trials (n)", min_value=1)
+successes = st.sidebar.number_input("Number of successes (x)", min_value=0, max_value=trials)
 
 x = np.linspace(0, 1, 1000)
 
